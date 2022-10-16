@@ -1,9 +1,25 @@
 #titulo{
-    color:rgb(227, 53, 34);
+    color:#2215d8;
     border-style: solid;
-    border-color: blue;
+    border-color: rgb(0, 162, 255);
+    border-radius: 3px;
+    border-width: 3px;
+    display: inline;
+}
+
+.bannertop{
+    /* text-align: center;
+    align-items: center; */
+    background-image: url('https://archetypeconsulting.com/assets/headers/blog_pm/ARC_blog_headers_PM_10.jpg');
     border-radius: 5px;
-    border-width: 5px;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.imagenderecha {
+    float: right;
+    position: relative;
+    left: 0;
 }
 
 p.extract{
@@ -20,23 +36,17 @@ h2.subtitulo{
 h2.titulos{
     color: blue;
     font-family: sans-serif;
+    text-decoration: overline;
 }
 
-h4.texto{
-    color: rgb(211, 37, 18);;
+h4.cargo{
+    color: rgb(211, 37, 18);
+    margin-top: 8px;
+    text-decoration: overline;
 }
 
 body{
     background-color: powderblue;
-}
-
-.imagentop{
-    /* text-align: center;
-    align-items: center; */
-    background-image: url('https://t4.ftcdn.net/jpg/02/71/60/21/240_F_271602154_2gY7IejZ2NB7fx3CiwfNy1IlFRtYxCfq.jpg');
-    background-size: cover;
-    text-decoration: overline;
-    font-family: sans-serif;
 }
 
 img{
@@ -50,13 +60,17 @@ a:link{
 }
 
 a:visited{
-    color: gray;
+    color: rgb(0, 26, 255);
 }
 
 a:hover{
-    color: yellow;
+    color: green;
 }
 
 a:active{
-    color: redjj;
+    color: red;
+}
+
+ul{
+    background-color: cyan;
 }
