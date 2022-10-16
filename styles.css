@@ -1,6 +1,29 @@
+#titulo{
+    color:rgb(227, 53, 34);
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+p.extract{
+    color: slateblue;
+    background-color: rgba(0,0,0,0.3);
+    /* opacity: 0.3; */
+}
+
+h2.subtitulo{
+    color: rgb(9, 96, 235);
+    font-family: sans-serif;
+}
+
 h2.titulos{
     color: blue;
     font-family: sans-serif;
+}
+
+h4.texto{
+    color: rgb(211, 37, 18);;
 }
 
 body{
@@ -8,5 +31,32 @@ body{
 }
 
 .imagentop{
-text-align: center;
+    /* text-align: center;
+    align-items: center; */
+    background-image: url('https://t4.ftcdn.net/jpg/02/71/60/21/240_F_271602154_2gY7IejZ2NB7fx3CiwfNy1IlFRtYxCfq.jpg');
+    background-size: cover;
+    text-decoration: overline;
+    font-family: sans-serif;
+}
+
+img{
+    border-radius: 8px;
+    height: auto;
+    max-width: 100%;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: redjj;
 }
