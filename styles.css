@@ -1,7 +1,7 @@
 #titulo{
-    color:#2215d8;
+    color: rgb(0, 81, 255);
     border-style: solid;
-    border-color: rgb(0, 162, 255);
+    border-color: rgb(6, 116, 180);
     border-radius: 3px;
     border-width: 3px;
     display: inline;
@@ -24,8 +24,8 @@
 
 p.extract{
     color: slateblue;
-    background-color: rgba(0,0,0,0.3);
-    /* opacity: 0.3; */
+    background-color: rgba(0, 89, 255, 0.356);
+    border-radius: 3px;
 }
 
 h2.subtitulo{
@@ -34,13 +34,13 @@ h2.subtitulo{
 }
 
 h2.titulos{
-    color: blue;
+    color: rgb(34, 34, 209);
     font-family: sans-serif;
     text-decoration: overline;
 }
 
 h4.cargo{
-    color: rgb(211, 37, 18);
+    color: rgb(189, 48, 33);
     margin-top: 8px;
     text-decoration: overline;
 }
@@ -60,7 +60,7 @@ a:link{
 }
 
 a:visited{
-    color: rgb(0, 26, 255);
+    color: rgb(42, 62, 240);
 }
 
 a:hover{
@@ -72,5 +72,12 @@ a:active{
 }
 
 ul{
-    background-color: cyan;
+    color: rgb(0, 53, 122);
+    background-color: rgb(90, 195, 236);
+    border-radius: 8px;
+}
+
+.foot {
+    color: rgba(1, 141, 64, 0.829);
+    text-decoration: underline;
 }
